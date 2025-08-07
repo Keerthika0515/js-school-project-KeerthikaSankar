@@ -1,0 +1,42 @@
+/* CSS goes here */ 
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo {
+  margin: 0;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 1rem;
+}
+
+#timeline {
+  margin-top: 2rem;
+  border: 2px dashed #ccc;
+  min-height: 200px;
+  padding: 1rem;
+}
+
+#modal {
+  display: none; /* will be styled later */
+}
